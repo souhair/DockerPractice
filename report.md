@@ -99,6 +99,4 @@ Run a container with a database with an attached volume (version 1.8)
 
 ![g1](https://user-images.githubusercontent.com/25878224/235069233-6ff21b4a-5ebe-4417-bb44-56814e8efde2.PNG)
 
-![g2](https://user-images.githubusercontent.com/25878224/235069252-7aeb372c-54b7-4cc8-bd3f-8a4306105502.PNG)
-
 ![grafana 5](https://user-images.githubusercontent.com/25878224/235342386-89121400-b008-4cfd-8d43-570977a0f8aa.PNG)
