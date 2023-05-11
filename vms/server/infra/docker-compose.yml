@@ -17,7 +17,7 @@ services:
     networks:
       - server-net
   grafana:
-    image: grafana/grafana
+    image: grafana/grafana:9.5.1-ubuntu
     container_name: grafana
     volumes:
       - grafana_data:/var/lib/grafana
