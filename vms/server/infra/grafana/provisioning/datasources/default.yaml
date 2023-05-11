@@ -6,7 +6,7 @@ datasources:
     access: proxy
     database: sensors
     user: telegraf
-    url: http://telegraf:8086
+    url: http://influxdb:8086
     jsonData:
       httpMode: GET
     secureJsonData:
