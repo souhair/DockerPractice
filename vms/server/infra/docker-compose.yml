@@ -9,7 +9,7 @@ services:
     networks:
       - server-net
   telegraf:
-    image: telegraf
+    image: telegraf:1.26.2
     container_name: telegraf
     volumes:
       - ./telegraf:/etc/telegraf:ro
