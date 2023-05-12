@@ -25,9 +25,10 @@
 
 - Build the docker image with the following command:
 
-      sudo docker build -t souhair/simulator .
+      sudo docker build -t souhair/sensor-simulator:v0.0.1 .
       
-![2-3](https://user-images.githubusercontent.com/25878224/235060282-8ecb0cc6-78f3-4a1d-afaa-15782bc6011e.PNG)
+![1](https://github.com/souhair/DockerPractice/assets/25878224/f753b2b5-8f6d-487b-ad27-22d0ac182b41)
+
 
 - Download mosquitto broker, create mosquitto.conf file
 
@@ -52,7 +53,12 @@
 
 - Pushing the Image to DockerHub
 
-![4- 1 push image](https://user-images.githubusercontent.com/25878224/235063094-cf5382fc-31ec-4e24-bb40-2c84a3a6b112.PNG) 
+![2](https://github.com/souhair/DockerPractice/assets/25878224/10c8bdd0-6434-4a71-892f-3c977f560615)
+
+![3](https://github.com/souhair/DockerPractice/assets/25878224/5cc298da-2f5c-4555-916e-08efd353a584)
+
+![4](https://github.com/souhair/DockerPractice/assets/25878224/8af60964-a911-4c5a-ad79-2cb9e76495d3)
+
 
 - Now test all sensors:
 
@@ -69,9 +75,9 @@
 
 - After that, we create a docker-compose file:
 
-![4- 2 dockercompose](https://user-images.githubusercontent.com/25878224/235065175-017622e7-1f0a-4d53-8530-821f787057d6.PNG)
+![8 compose server 1](https://github.com/souhair/DockerPractice/assets/25878224/dd366dd0-016a-4992-88b6-a08ec65d5fc5)
 
-![4- 3 dockercompose](https://user-images.githubusercontent.com/25878224/235065490-44a39c93-4680-4972-ba9f-0e221ed66b24.PNG)
+![9 compose server 2](https://github.com/souhair/DockerPractice/assets/25878224/49bdf3dd-ff4b-43a1-980b-9bcad41deddf)
 
  In Linux A: 
 - Influxdb 
@@ -85,7 +91,7 @@ Run a container with a database with an attached volume (version 1.8)
 
 - Now we have:
 
-![f1](https://user-images.githubusercontent.com/25878224/235067314-9b0fc5e7-03e6-416f-b010-4e83445e7e5f.PNG)
+![f1](https://github.com/souhair/DockerPractice/assets/25878224/0aaf4e12-eea0-4c43-9e98-8e2eeb45db61)
 
 ![f2](https://user-images.githubusercontent.com/25878224/235067324-c976bfbf-e29b-4f4d-8f3a-6e31e4770036.PNG)
 
@@ -95,8 +101,9 @@ Run a container with a database with an attached volume (version 1.8)
 
 ![grafana 1- 1 ](https://user-images.githubusercontent.com/25878224/235066132-86838126-656b-4e4c-93b2-56bb8ef54275.PNG)
 
-![grafana 2](https://user-images.githubusercontent.com/25878224/235066148-0315a22a-b44e-4f40-9255-a9e12daf1329.PNG)
+![5](https://github.com/souhair/DockerPractice/assets/25878224/ad13e673-39b7-4b93-beda-41e3ed6f3b97)
 
-![g1](https://user-images.githubusercontent.com/25878224/235069233-6ff21b4a-5ebe-4417-bb44-56814e8efde2.PNG)
+![6](https://github.com/souhair/DockerPractice/assets/25878224/629b8eae-c696-49d7-9d95-34fee7abd5cd)
 
-![grafana 5](https://user-images.githubusercontent.com/25878224/235342386-89121400-b008-4cfd-8d43-570977a0f8aa.PNG)
+![7](https://github.com/souhair/DockerPractice/assets/25878224/b92efedc-9215-4004-a25a-220fa061c203)
+
