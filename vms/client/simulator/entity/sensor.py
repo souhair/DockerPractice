@@ -20,7 +20,7 @@ class Sensor:
 
 
 class Temperature(Sensor):
-    step = 15
+    step = 25
 
     def __init__(self, name):
         super().__init__(name)
@@ -31,7 +31,7 @@ class Temperature(Sensor):
 
 
 class Pressure(Sensor):
-    step = 65
+    step = 55
 
     def __init__(self, name):
         super().__init__(name)
@@ -52,16 +52,3 @@ class Current(Sensor):
         import math
         self.value = math.sin(self.step)
         self.step = self.step + 1
-        
-class Humidity(Sensor):
-    step = 0
-
-    def __init__(self, name):
-        super().__init__(name)
-        self.type = "humidity"
-
-    def generate_new_value(self):
-        import math
-        self.value = (math.cos(self.step + 3) + 2) * 10
-        self.step = self.step + 4
-
